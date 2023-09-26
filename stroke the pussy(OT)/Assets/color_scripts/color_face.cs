@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class color_cat : MonoBehaviour
+public class color_face : MonoBehaviour
 {
     [SerializeField] private Sprite red;
     [SerializeField] private Sprite yellow;
