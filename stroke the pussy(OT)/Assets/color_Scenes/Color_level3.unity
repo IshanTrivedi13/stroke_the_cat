@@ -946,7 +946,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1742792908}
         m_TargetAssemblyTypeName: color_pausepanel, Assembly-CSharp
-        m_MethodName: Restart_1
+        m_MethodName: Restart_3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
