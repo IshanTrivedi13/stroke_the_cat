@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/color_Scenes/Color_level5.unity
     guid: 74689498eafcd6c46b2ceca15b1d75ad
+  - enabled: 1
+    path: Assets/color_Scenes/Color_qn.unity
+    guid: 31928034ec1356f469082c0837f4a654
   m_configObjects: {}
