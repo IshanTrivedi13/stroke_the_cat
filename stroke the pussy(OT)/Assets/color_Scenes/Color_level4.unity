@@ -280,7 +280,7 @@ GameObject:
   m_Component:
   - component: {fileID: 122900321}
   - component: {fileID: 122900320}
-  - component: {fileID: 122900319}
+  - component: {fileID: 122900322}
   m_Layer: 0
   m_Name: blackArm
   m_TagString: Untagged
@@ -288,24 +288,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &122900319
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 122900318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f271992b0dbc3364ca621ec54cdfefa5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  red: {fileID: 21300000, guid: c091dc07b824a3342afa56f343f00dc6, type: 3}
-  yellow: {fileID: 21300000, guid: f7a43a11443f8084688c28563599e1f8, type: 3}
-  green: {fileID: 21300000, guid: ce7bc893a836b5341b73311352373c9e, type: 3}
-  blue: {fileID: 21300000, guid: 15cd2609ccb710d44aa0be4683a27179, type: 3}
-  violet: {fileID: 21300000, guid: 2b0e8c8cf3a7adf4ca2e6dbeff09844d, type: 3}
-  brown: {fileID: 21300000, guid: 408d3f597d28c94428fab162923937b6, type: 3}
 --- !u!212 &122900320
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -373,6 +355,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &122900322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122900318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c474227bd4a5314fa9f367f7a24a8c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  red: {fileID: 21300000, guid: c091dc07b824a3342afa56f343f00dc6, type: 3}
+  yellow: {fileID: 21300000, guid: f7a43a11443f8084688c28563599e1f8, type: 3}
+  green: {fileID: 21300000, guid: ce7bc893a836b5341b73311352373c9e, type: 3}
+  blue: {fileID: 21300000, guid: 15cd2609ccb710d44aa0be4683a27179, type: 3}
+  violet: {fileID: 21300000, guid: 2b0e8c8cf3a7adf4ca2e6dbeff09844d, type: 3}
+  brown: {fileID: 21300000, guid: 408d3f597d28c94428fab162923937b6, type: 3}
 --- !u!1 &190984406
 GameObject:
   m_ObjectHideFlags: 0
@@ -2058,7 +2058,7 @@ GameObject:
   m_Component:
   - component: {fileID: 860095515}
   - component: {fileID: 860095514}
-  - component: {fileID: 860095513}
+  - component: {fileID: 860095516}
   m_Layer: 0
   m_Name: blackFace
   m_TagString: Untagged
@@ -2066,24 +2066,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &860095513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 860095512}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f271992b0dbc3364ca621ec54cdfefa5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  red: {fileID: 21300000, guid: 5d5ad37dcb24e614d94d35d7f07ee810, type: 3}
-  yellow: {fileID: 21300000, guid: 471c20497de020b498105deebdd243cc, type: 3}
-  green: {fileID: 21300000, guid: 10d16cbeeeef9ac4a9d09255c6960e23, type: 3}
-  blue: {fileID: 21300000, guid: 76f2980660a3fd44791e05126ad9a7df, type: 3}
-  violet: {fileID: 21300000, guid: c0a7046133f288c42b0451bdcd80cd64, type: 3}
-  brown: {fileID: 21300000, guid: b966b52bb6adabc40b5add14dcfb6ff7, type: 3}
 --- !u!212 &860095514
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2151,6 +2133,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &860095516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860095512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2da5da096c2fcb4f8d5aa0eab91a5f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  red: {fileID: 21300000, guid: 5d5ad37dcb24e614d94d35d7f07ee810, type: 3}
+  yellow: {fileID: 21300000, guid: 471c20497de020b498105deebdd243cc, type: 3}
+  green: {fileID: 21300000, guid: 10d16cbeeeef9ac4a9d09255c6960e23, type: 3}
+  blue: {fileID: 21300000, guid: 76f2980660a3fd44791e05126ad9a7df, type: 3}
+  violet: {fileID: 21300000, guid: c0a7046133f288c42b0451bdcd80cd64, type: 3}
+  brown: {fileID: 21300000, guid: b966b52bb6adabc40b5add14dcfb6ff7, type: 3}
 --- !u!1 &906794427
 GameObject:
   m_ObjectHideFlags: 0
@@ -2439,7 +2439,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1328890825}
   - component: {fileID: 1328890824}
-  - component: {fileID: 1328890823}
+  - component: {fileID: 1328890826}
   m_Layer: 0
   m_Name: blackBody
   m_TagString: Untagged
@@ -2447,24 +2447,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1328890823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1328890822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f271992b0dbc3364ca621ec54cdfefa5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  red: {fileID: 21300000, guid: 99dc270c96684234b99e611bd56ad8a0, type: 3}
-  yellow: {fileID: 21300000, guid: e10cc74d4723e954482cf952688af362, type: 3}
-  green: {fileID: 21300000, guid: 737b4c6c51ab7f7478bb19b2bbb6e799, type: 3}
-  blue: {fileID: 21300000, guid: 897561eedc7c1c6469d0296de237d2c9, type: 3}
-  violet: {fileID: 21300000, guid: f71871fb8263a1b49bf387a133949925, type: 3}
-  brown: {fileID: 21300000, guid: 6922acb06e4ccb643bdbfd8d044838ab, type: 3}
 --- !u!212 &1328890824
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2532,6 +2514,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1328890826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328890822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b34ab7ea6753c904fb69437213a4db3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  red: {fileID: 21300000, guid: 99dc270c96684234b99e611bd56ad8a0, type: 3}
+  yellow: {fileID: 21300000, guid: e10cc74d4723e954482cf952688af362, type: 3}
+  green: {fileID: 21300000, guid: 737b4c6c51ab7f7478bb19b2bbb6e799, type: 3}
+  blue: {fileID: 21300000, guid: 897561eedc7c1c6469d0296de237d2c9, type: 3}
+  violet: {fileID: 21300000, guid: f71871fb8263a1b49bf387a133949925, type: 3}
+  brown: {fileID: 21300000, guid: 6922acb06e4ccb643bdbfd8d044838ab, type: 3}
 --- !u!1 &1430990137
 GameObject:
   m_ObjectHideFlags: 0
@@ -2542,7 +2542,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1430990140}
   - component: {fileID: 1430990139}
-  - component: {fileID: 1430990138}
   m_Layer: 0
   m_Name: blackPaws
   m_TagString: Untagged
@@ -2550,24 +2549,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1430990138
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1430990137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f271992b0dbc3364ca621ec54cdfefa5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  red: {fileID: 21300000, guid: 1ddf407d4b998124996ee150b16ef1bc, type: 3}
-  yellow: {fileID: 21300000, guid: eecafe152eae004468859af594e8f05d, type: 3}
-  green: {fileID: 21300000, guid: ea8a600637857b24da2934604dbea46a, type: 3}
-  blue: {fileID: 21300000, guid: 3bfe5044ae7856f41919524878d7745a, type: 3}
-  violet: {fileID: 21300000, guid: 2126cca73edb9b546bf2151366abc5fe, type: 3}
-  brown: {fileID: 21300000, guid: 69fa5c3f68f676b469d95a0aaf3f78c7, type: 3}
 --- !u!212 &1430990139
 SpriteRenderer:
   m_ObjectHideFlags: 0

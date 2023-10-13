@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class color_paws : MonoBehaviour
+public class ColorArm : MonoBehaviour
 {
     [SerializeField] private Sprite red;
     [SerializeField] private Sprite yellow;
@@ -10,6 +10,8 @@ public class color_paws : MonoBehaviour
     [SerializeField] private Sprite blue;
     [SerializeField] private Sprite violet;
     [SerializeField] private Sprite brown;
+    public static int rand;
+
 
     SpriteRenderer spriteRenderer;
 
@@ -17,7 +19,11 @@ public class color_paws : MonoBehaviour
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        int rand = Random.Range(0,6);
+        rand = Random.Range(0,6);
+        while(rand == ColorTail.rand || rand == ColorBody.rand || rand == ColorFace.rand || rand == ColorPaws.rand)
+        {
+            rand = Random.Range(0,6);
+        }
         if (rand == 0)
         {
             spriteRenderer.sprite = red;
