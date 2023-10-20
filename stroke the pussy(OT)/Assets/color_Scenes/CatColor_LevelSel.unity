@@ -244,7 +244,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1018301210}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameManagerColorLevel, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 5
@@ -265,7 +265,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1018301211}
-  - component: {fileID: 1018301210}
   m_Layer: 0
   m_Name: GameManagerColorLevel
   m_TagString: Untagged
@@ -273,49 +272,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1018301210
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1018301209}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34863a61626965745a72aadc1cae0f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  catParts:
-  - Tail
-  - Face
-  - Paws
-  - Legs
-  - Body
-  catColors:
-  - Red
-  - Blue
-  - Green
-  - Purple
-  - Brown
-  - Yellow
-  arm:
-  - {fileID: 0}
-  - {fileID: 0}
-  body:
-  - {fileID: 0}
-  - {fileID: 0}
-  paws:
-  - {fileID: 0}
-  - {fileID: 0}
-  face:
-  - {fileID: 0}
-  - {fileID: 0}
-  ears:
-  - {fileID: 0}
-  - {fileID: 0}
-  tail:
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!4 &1018301211
 Transform:
   m_ObjectHideFlags: 0
@@ -634,7 +590,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1018301210}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameManagerColorLevel, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 5
@@ -919,7 +875,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1018301210}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameManagerColorLevel, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 5
@@ -1052,7 +1008,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1018301210}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameManagerColorLevel, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 5
@@ -1185,7 +1141,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1018301210}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameManagerColorLevel, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 5

@@ -5,22 +5,26 @@ using System.Collections.Generic;
 public class QuestionManager : MonoBehaviour
 {
     public Text questionText;
-    public List<Button> answerButtons;
+    [SerializeField] private Button redButton;
+    [SerializeField] private Button yellowButton;
+    [SerializeField] private Button greenButton;
+    [SerializeField] private Button blueButton;
+    [SerializeField] private Button purpleButton;
+    [SerializeField] private Button brownButton;
+
 
     private string[] catParts = { "Tail", "Face", "Paws", "Legs", "Body" };
 
+    [SerializeField] private int numberOfParts;
+
     private void Start()
     {
-        // Get the selected level from PlayerPrefs
-        int selectedLevel = PlayerPrefs.GetInt("SelectedLevel", 1);
-
-        // Generate a random question based on the selected level
-        string catPart = GetCatPart(selectedLevel);
-        string question = "What is the color of " + catPart + "?";
+        int randomPart = Random.Range(0, numberOfParts);
+        string question = "What is the color of " + catParts[randomPart] + "?";
         questionText.text = question;
 
         // Implement answer button logic here
-        if (catPart == "Tail")
+        if (randomPart == 0)
         {
             if (ColorTail.rand == 0)
                 //correct answer is red
@@ -41,7 +45,7 @@ public class QuestionManager : MonoBehaviour
                 //correct answer is brown
                 ;
         }
-        else if (catPart == "Face")
+        else if (randomPart == 1)
         {
             if (ColorFace.rand == 0)
                 //correct answer is red
@@ -62,7 +66,7 @@ public class QuestionManager : MonoBehaviour
                 //correct answer is brown
                 ;
         }
-        else if (catPart == "Body")
+        else if (randomPart == 2)
         {
             if (ColorBody.rand == 0)
                 //correct answer is red
@@ -83,7 +87,7 @@ public class QuestionManager : MonoBehaviour
                 //correct answer is brown
                 ;
         }
-        else if (catPart == "Legs")
+        else if (randomPart == 3)
         {
             if (ColorArm.rand == 0)
                 //correct answer is red
@@ -104,7 +108,7 @@ public class QuestionManager : MonoBehaviour
                 //correct answer is brown
                 ;
         }
-        else if (catPart == "Paws")
+        else if (randomPart == 4)
         {
             if (ColorPaws.rand == 0)
                 //correct answer is red
@@ -125,14 +129,5 @@ public class QuestionManager : MonoBehaviour
                 //correct answer is brown
                 ;
         }
-    }
-
-    private string GetCatPart(int level)
-    {
-        if (level < 1 || level > catParts.Length)
-        {
-            level = 1; // Default to level 1 if invalid level
-        }
-        return catParts[level - 1];
     }
 }
