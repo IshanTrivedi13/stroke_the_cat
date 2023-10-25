@@ -50,4 +50,9 @@ public class color_pausepanel : MonoBehaviour
         SceneManager.LoadScene("Color_level5");
 
     }
+    public void Restart_QA()
+    {
+        SceneManager.LoadScene("Color_qn");
+
+    }
 }
